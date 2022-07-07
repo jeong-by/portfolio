@@ -2,7 +2,7 @@
     <b-card  style="margin-top:5vh;padding:2vw;border-radius:20px;">
         <h1 style="font-weight:800;"><b-icon-clipboard-check></b-icon-clipboard-check> {{data.num}}</h1><br/>
         <b-card class="project-card">
-            <b-card-title>ESL{{data.title}}</b-card-title>
+            <b-card-title>{{data.title}}</b-card-title>
             <hr/>
             <div style="width:70%; margin-left:auto;margin-right:auto;margin-bottom:5vh;">
                 <b-img v-bind:src="require(`../../assets/project/${data.img}`)" class="img" @click="showModal()"  ></b-img>

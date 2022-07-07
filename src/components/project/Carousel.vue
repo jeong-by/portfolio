@@ -3,7 +3,7 @@
     <b-carousel
       id="carousel-1"
       v-model="slide"
-      :interval="4000"
+      :interval="3000"
       controls
       indicators
       background="#ababab"
@@ -38,7 +38,8 @@
         imageArray2:[require('../../assets/project/image2-1.png'),require('../../assets/project/image2-2.jpg'),require('../../assets/project/image2-3.png')],
         imageArray3:[require('../../assets/project/image3-1.png'),require('../../assets/project/image3-2.png'),require('../../assets/project/image3-3.png')],
         imageArray4:[require('../../assets/project/image5-1.jpg'),require('../../assets/project/image5-2.jpg'),require('../../assets/project/image5-3.jpg'),require('../../assets/project/image5-4.jpg'),],
-        imageArray5:[],
+        imageArray5:[require('../../assets/project/image4-1.png'),require('../../assets/project/image4-2.png'),require('../../assets/project/image4-3.jpg')],
+        imageArray6:[]
       }
     },
     methods: {
@@ -65,6 +66,7 @@
       else if (this.type==5) {
         this.selectedArray = this.imageArray5;
       }
+      console.log("hahaha")
     }
   }
 </script>

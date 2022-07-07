@@ -6,7 +6,7 @@
             <b-navbar-nav class="nav-btn-div ml-auto">
             <b-nav-item href="#about" class="nav-btn">About</b-nav-item>
             <b-nav-item href="#usable" class="nav-btn">Usable</b-nav-item>
-            <b-nav-item href="#project" class="nav-btn">Projects</b-nav-item>
+            <b-nav-item href="#carousel" class="nav-btn">Projects</b-nav-item>
             <b-nav-item href="#service" class="nav-btn">Service</b-nav-item>
             <b-nav-item href="#contact" class="nav-btn">Contact Me</b-nav-item>
             </b-navbar-nav>

@@ -18,7 +18,7 @@ export default {
         return {
             front:{title:"Frontend",img:["htmljscss.jpeg","vuejs.png","jquery.png","react.png"]},
             mobile:{title:"Mobile",img:["flutter.png","cordova.png","android.png"]},
-            backend:{title:"Backend",img:["nodejs.png","mysql.jpg","postgresql.jpg","geoserver.png"]},
+            backend:{title:"Backend",img:["nodejs.png","mysql.jpg","postgresql.jpg","geoserver.png","fhir.png"]},
             control:{title:"Version-Control",img:["git.jpeg","github.png"]},
             service:{title:"Web-Service",img:["aws.png"]}
         }
