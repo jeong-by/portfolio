@@ -35,11 +35,11 @@
         slide: 0,
         sliding: null,
         imageArray1:[require('../../assets/project/image1-1.png'),require('../../assets/project/image1-2.png'),require('../../assets/project/image1-3.png'),require('../../assets/project/image1-4.png')],
-        imageArray2:[require('../../assets/project/image2-1.png'),require('../../assets/project/image2-2.jpg'),require('../../assets/project/image2-3.png')],
+        imageArray2:[require('../../assets/project/image2-1.png'),require('../../assets/project/image2-2.png'),require('../../assets/project/image2-3.png'),require('../../assets/project/image2-4.png')],
         imageArray3:[require('../../assets/project/image3-1.png'),require('../../assets/project/image3-2.png'),require('../../assets/project/image3-3.png')],
         imageArray4:[require('../../assets/project/image5-1.jpg'),require('../../assets/project/image5-2.jpg'),require('../../assets/project/image5-3.jpg'),require('../../assets/project/image5-4.jpg'),],
         imageArray5:[require('../../assets/project/image4-1.png'),require('../../assets/project/image4-2.png'),require('../../assets/project/image4-3.jpg')],
-        imageArray6:[]
+        imageArray6:[require('../../assets/project/image6-1.png'),require('../../assets/project/image6-2.png'),require('../../assets/project/image6-3.png'),require('../../assets/project/image6-4.png'),require('../../assets/project/image6-5.png'),require('../../assets/project/image6-6.png')]
       }
     },
     methods: {
@@ -66,7 +66,10 @@
       else if (this.type==5) {
         this.selectedArray = this.imageArray5;
       }
-      console.log("hahaha")
+      else if (this.type==6) {
+        this.selectedArray = this.imageArray6;
+      }
+      
     }
   }
 </script>

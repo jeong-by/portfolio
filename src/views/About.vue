@@ -21,7 +21,7 @@
                 </b-col>
                 <b-col xs="12" sm="6" md="6" lg="4" class="row" style="margin-top:5vh">
                     <b-col cols="6"><b-icon class="icon" icon="card-checklist"></b-icon> </b-col>
-                    <b-col cols="6" ><p class="icon-title">경력</p><p class="icon-detail">4년 이상</p> </b-col>    
+                    <b-col cols="6" ><p class="icon-title">경력</p><p class="icon-detail">19년 1월 ~ </p> </b-col>    
                 </b-col>
                 <b-col xs="12" sm="6" md="6" lg="4" class="row" style="margin-top:5vh">
                     <b-col cols="6"><b-icon class="icon" icon="book-fill"></b-icon> </b-col>
